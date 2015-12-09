@@ -1,0 +1,76 @@
+body { 
+    color: #000; 
+    background-color: orange;
+    font-family: arial;
+}
+
+.main {
+    text-align: center;
+    display:block;
+}
+
+.instructions {
+	font-size: small;
+}
+
+.rotate {
+	font-family: arial;
+	font-size: medium;
+	font-weight: bold;
+	background-color: #888;
+	color: orange;
+	border: 2px solid #FFFFFF;
+}
+
+
+.guess {
+	font-family: arial;
+	font-size: medium;
+	font-weight: bold;
+	background-color: #888;
+	color: orange;
+	border: 2px solid #FFFFFF;
+}
+
+.previous {
+	font-family: arial;
+	font-size: medium;
+	font-weight: bold;
+	background-color: #888;
+	color: orange;
+	border: 2px solid #FFFFFF;
+}
+
+.next {
+	font-family: arial;
+	font-size: medium;
+	font-weight: bold;
+	background-color: #888;
+	color: orange;
+	border: 2px solid #FFFFFF;
+}
+
+.rotate-and-guess {
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+	font-family: arial;
+	background-color: #000;
+	width: 450px;
+}
+
+.prev-and-next {
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+	font-family: arial;
+	background-color: #000;
+	width: 450px;
+}
+
+.image {
+	font-family: arial;
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+}

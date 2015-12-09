@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <script src="jquery-1.11.3.min.js"></script>
+        <title>M.C. Escher</title>
+    </head> 
+
+
+    <body>
+    
+        <main class="main">
+    
+            <section class="head">
+                <h1>Maurits Cornelis Escher</h1>
+                <p>''Alleen zij die het absurde willen benaderen zullen het onmogelijke bereiken.''</p>
+            </section>
+
+            <section class="instructions">
+                <p>Rotate the image until you think the right way is up</p>
+                <p>Click guess to check if you're right</p>
+                <p>If so, continue to the next image</p>
+            </section>
+
+            <section class="rotate-and-guess">
+                <button class="rotate" onclick="turnImage()">Rotate image</button>
+                <button class="guess" onclick="Guess()">Guess</button>  
+            </section>
+        
+            <section class="image">
+                <img id="image" src="image1.jpg" alt="HTML5 Icon" width="450" height="450">
+            </section>
+
+            <section class="prev-and-next">
+                    <button class="previous" onclick="prev()">Previous image</button>         
+                    <button class="next" onclick="next()">Next image</button>
+            </section>
+        
+        </main>
+    
+    <script type="text/javascript" src="app3.js"></script>
+    <script src="jquery-1.11.3.min.js"></script>
+    
+    </body>   
+    
+
+</html>
